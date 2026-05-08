@@ -1,0 +1,10 @@
+fastapi[standard]
+sqlalchemy
+pydantic
+scikit-learn
+reportlab
+earthengine-api
+pandas
+numpy
+uvicorn
+python-multipart

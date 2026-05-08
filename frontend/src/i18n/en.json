@@ -1,0 +1,282 @@
+{
+  "nav": {
+    "home": "Home",
+    "new_claim": "New Claim",
+    "check_status": "Check Status",
+    "admin_portal": "Admin Portal",
+    "researcher": "Researcher",
+    "faq": "FAQ"
+  },
+  "home": {
+    "badge": "Next-Gen InsurTech",
+    "title": "Satellite-Based Crop Insurance",
+    "subtitle": "Fast, transparent, and accurate claim processing powered by Google Earth Engine NDVI analysis and Machine Learning.",
+    "for_farmers": "For Farmers",
+    "for_farmers_desc": "Easily submit your crop insurance claim. Draw your farm boundary on our interactive map, select the extreme weather event, and track your claim status in real-time.",
+    "submit_btn": "Submit New Claim",
+    "for_admins": "For Administrators",
+    "for_admins_desc": "Verify claims rapidly using AI-powered insights. Review satellite NDVI difference maps, damage percentage estimates, and our ML model's recommendation.",
+    "access_portal": "Access Portal",
+    "how_it_works": "How AgriShield System Works",
+    "steps": {
+      "step1_title": "1. Submit Polygon",
+      "step1_desc": "Draw farm boundaries",
+      "step2_title": "2. Satellite Data",
+      "step2_desc": "Fetch multi-spectral imagery",
+      "step3_title": "3. ML Analysis",
+      "step3_desc": "Calculate NDVI & recommendations",
+      "step4_title": "4. Verify",
+      "step4_desc": "Admin approves or rejects"
+    }
+  },
+  "new_claim": {
+    "title": "Submit New Crop Insurance Claim",
+    "personal_details": "Farmer Details",
+    "farmer_name": "Full Name",
+    "phone_number": "Phone Number",
+    "village": "Village / Block",
+    "farmer_id": "Farmer ID",
+    "requested_amount": "Requested Claim Amount (Rs.)",
+    "disaster_details": "Crop & Event Details",
+    "crop_type": "Crop Type",
+    "event_type": "Event Type",
+    "sowing_date": "Sowing Date",
+    "expected_harvest": "Expected Harvest",
+    "event_start": "Event Start Date",
+    "event_end": "Event End Date",
+    "location_title": "Farm Boundary",
+    "location_desc": "Use the mapping tool on the left to draw the boundary of the affected field.",
+    "boundary_captured": "Farm Boundary Captured",
+    "lat": "Lat",
+    "lng": "Lng",
+    "perimeter": "Perimeter",
+    "calculated_area": "Calculated Area",
+    "acres": "Acres",
+    "hectares": "Ha",
+    "waiting_polygon": "Waiting for polygon...",
+    "submit": "Submit Claim & Verify Damage",
+    "submitting": "Processing via AI Model...",
+    "success": "Claim Submitted Successfully!",
+    "error_polygon": "Please draw your farm boundary on the map.",
+    "error_submit": "Failed to submit claim. Please try again.",
+    "crops": {
+      "select": "Select Crop",
+      "sugarcane": "Sugarcane",
+      "millets": "Millets",
+      "soybeans": "Soybeans",
+      "pulses": "Pulses",
+      "barley": "Barley",
+      "cotton": "Cotton",
+      "groundnut": "Groundnut",
+      "sunflower": "Sunflower",
+      "maize": "Maize",
+      "tea": "Tea",
+      "coffee": "Coffee",
+      "wheat": "Wheat",
+      "rice": "Rice"
+    },
+    "events": {
+      "select": "Select Disaster",
+      "cyclone": "Cyclone",
+      "hailstorm": "Hailstorm",
+      "wildfire": "Wildfire",
+      "landslide": "Landslide",
+      "rain": "Unseasonal Rain",
+      "flood": "Heavy Flood",
+      "heatwave": "Heatwave",
+      "pest": "Pest Attack",
+      "disease": "Disease Outbreak",
+      "waterlogging": "Waterlogging",
+      "thunderstorm": "Thunderstorm",
+      "drought": "Drought"
+    },
+    "map": {
+      "search": "Search village, district, or coordinates",
+      "tooltip_start": "Click to start drawing farm boundary.",
+      "tooltip_cont": "Click to continue drawing boundary.",
+      "tooltip_end": "Click first point or double-click to complete polygon.",
+      "error_cross": "Error: Shape edges cannot cross!"
+    }
+  },
+  "status": {
+    "title": "Track Claim Status",
+    "enter_id": "Enter Claim ID or Phone Number",
+    "search": "Search",
+    "searching": "Searching...",
+    "not_found": "Claim not found. Please check your Claim ID or Phone Number.",
+    "details": "Claim Details",
+    "id": "Claim ID",
+    "status": "Current Status",
+    "farmer_details": "Farmer Details",
+    "name": "Name",
+    "village": "Village",
+    "phone": "Phone",
+    "event_details": "Event Details",
+    "crop": "Crop",
+    "event": "Event",
+    "date": "Date",
+    "ai_results": "AI Verification Results",
+    "est_damage": "Est. Damage",
+    "ai_confidence": "AI Confidence",
+    "compensation": "Estimated Compensation",
+    "admin_note": "Admin Note",
+    "under_review": "Claim Under Review",
+    "timeline": "Estimated Verification Timeline: 7-14 business days subject to field officer inspection.",
+    "download_provisional": "Download Provisional Notice",
+    "download_official": "Download Official Report",
+    "states": {
+      "pending": "Pending",
+      "verified": "Verified",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    }
+  },
+  "admin": {
+    "title": "Intelligence Admin Panel",
+    "queue_title": "Claims Queue",
+    "filters": {
+      "all": "All",
+      "pending": "Pending",
+      "verified": "Verified",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "debug": {
+      "panel": "DEBUG PANEL",
+      "total": "Total Records Loaded",
+      "selected": "Selected Filter",
+      "field": "Detected Status Field",
+      "filtered": "Filtered Records"
+    },
+    "fetching": "Fetching live claim records...",
+    "no_claims": "No claims found.",
+    "reviewing": "Reviewing",
+    "submitted": "Submitted",
+    "farmer": "Farmer",
+    "ml_prediction": "ML Prediction",
+    "crop_type": "Crop Type",
+    "event_type": "Event Type",
+    "est_damage": "Est. Damage",
+    "requested": "Requested (INR)",
+    "suggested": "Suggested",
+    "fraud": {
+      "title": "AI Fraud Risk Assessment",
+      "risk_level": "Risk Level",
+      "desc": "Analyzed via coordinate topology, historical frequency, and NDVI consistency.",
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "weather": {
+      "title": "Local Weather Timeline",
+      "pre": "Pre-Event",
+      "during": "During Event",
+      "post": "Post-Event",
+      "clear": "Clear",
+      "severe": "Severe Condition",
+      "cloudy": "Cloudy"
+    },
+    "ndvi": {
+      "title": "Multi-Spectral Analysis (NDVI) Dashboard",
+      "subtitle": "Satellite imagery pre and post disaster event timeframe.",
+      "live_gis": "Live GIS Engine",
+      "pre_img": "Pre-Disaster Image",
+      "post_img": "Post-Disaster Image",
+      "loss_heatmap": "Vegetation Loss Heatmap",
+      "ndvi_score": "NDVI Score",
+      "loss": "Loss"
+    },
+    "insight": {
+      "title": "AI Insight Summary",
+      "high_stress": "Significant vegetation stress detected across Ha. Estimated crop damage severity is High.",
+      "mod_stress": "Moderate vegetation changes observed. Estimated crop damage severity is Medium/Low.",
+      "correlation": "The multi-spectral difference indicates a high correlation with the reported event."
+    },
+    "decision": {
+      "title": "Administrator Decision",
+      "placeholder": "Enter formal review notes and rationale for this decision...",
+      "approve": "Approve Claim",
+      "reject": "Reject Claim",
+      "verify": "Mark Verified"
+    },
+    "empty": {
+      "title": "Enterprise Claim Verification",
+      "desc": "Select a farmer's claim from the queue to review deep multi-spectral analysis and automated ML payout recommendations."
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": "How do I draw my farm boundary?",
+    "a1": "On the 'New Claim' page, you will see an interactive map. Use the polygon tool (the pentagon icon on the left side of the map) to click the corners of your farm. Click on your starting point to close the shape. The system will automatically capture the coordinates.",
+    "q2": "What is NDVI?",
+    "a2": "NDVI (Normalized Difference Vegetation Index) is a measure of healthy, green vegetation calculated using satellite imagery. We compare NDVI before and after an extreme weather event to accurately estimate crop damage.",
+    "q3": "How long does verification take?",
+    "a3": "Because our system uses automated Google Earth Engine retrieval and Machine Learning prediction, initial processing is instantaneous upon submission. Final approval by an administrator typically occurs within 24-48 hours."
+  },
+  "research": {
+    "title": "Interactive Researcher Dashboard",
+    "subtitle": "Macro-level data intelligence with drill-down analytics for PMFBY policy development.",
+    "analytics_portal": "Analytics Portal",
+    "kpis": {
+      "total": "Total Claims Filed",
+      "approved": "Approved Claims",
+      "rejected": "Rejected Claims",
+      "pending": "Pending Claims",
+      "click_all": "Click to view all",
+      "click_drill": "Click to drill down"
+    },
+    "table": {
+      "all_db": "All Claims Database",
+      "dir": "Claims Directory",
+      "records": "records",
+      "search_placeholder": "Search by ID, Farmer, Village, or Crop...",
+      "no_match": "No claims match your filters.",
+      "id": "Claim ID",
+      "name": "Farmer Name",
+      "village": "Village",
+      "crop_event": "Crop / Event",
+      "amount": "Amount",
+      "ai_score": "AI Score",
+      "status": "Status"
+    },
+    "insights": {
+      "title": "AI Verification Insights",
+      "damage": "Damage Est",
+      "risk": "Risk Level",
+      "area": "Area",
+      "acres": "Acres",
+      "sown": "Sown Date",
+      "note": "Admin Note",
+      "profile": "Open Full Profile",
+      "download": "Download Report PDF"
+    },
+    "charts": {
+      "status": "Filtered Status Distribution",
+      "payouts": "Historical Payouts (INR)",
+      "crops": "Filtered Crop Analytics",
+      "disaster": "Filtered Disaster Analytics",
+      "no_data": "No data to display"
+    },
+    "export": {
+      "title": "Export GIS & Research Data",
+      "desc": "Download the full anonymized dataset encompassing historical NDVI variance vectors, temporal imagery bounds, and model prediction differentials for academic auditing.",
+      "btn": "Download CSV Archive"
+    },
+    "topological": "Topological Data Map"
+  },
+  "chatbot": {
+    "title": "AgriShield Assistant",
+    "welcome": "Hello! I am your AgriShield Assistant. How can I help you today?",
+    "placeholder": "Type your question...",
+    "error": "Sorry, I am having trouble connecting to the service. Please try again later or contact a support agent."
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "footer": "© 2026 AgriShield AI. Empowering Farmers with Machine Learning."
+  }
+}
